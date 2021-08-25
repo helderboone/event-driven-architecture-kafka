@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{595D7A83-85BD-4AB4-B3CF-1DE01A432508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E2EE4078-E6AB-4258-8B26-A653D003D46B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{86954861-7543-492A-BECB-A50ADE5475D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pedido", "Pedido", "{BBDC14E6-7A6E-49C2-9076-90C61210EFCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagamento", "Pagamento", "{597935F4-EBA6-4DE5-AEAC-DF6CBE94CB7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDA.Pedidos.API", "src\services\EDA.Pedidos.API\EDA.Pedidos.API.csproj", "{781FA861-288C-44DA-9C59-435588131EF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8A912963-1846-4EBD-98CB-010116D08063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDA.Core", "src\building blocks\EDA.Core\EDA.Core.csproj", "{76920178-5F4F-4D02-AFE2-84F975E8992A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{781FA861-288C-44DA-9C59-435588131EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781FA861-288C-44DA-9C59-435588131EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781FA861-288C-44DA-9C59-435588131EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781FA861-288C-44DA-9C59-435588131EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76920178-5F4F-4D02-AFE2-84F975E8992A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76920178-5F4F-4D02-AFE2-84F975E8992A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76920178-5F4F-4D02-AFE2-84F975E8992A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76920178-5F4F-4D02-AFE2-84F975E8992A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2EE4078-E6AB-4258-8B26-A653D003D46B} = {595D7A83-85BD-4AB4-B3CF-1DE01A432508}
+		{86954861-7543-492A-BECB-A50ADE5475D0} = {595D7A83-85BD-4AB4-B3CF-1DE01A432508}
+		{BBDC14E6-7A6E-49C2-9076-90C61210EFCF} = {E2EE4078-E6AB-4258-8B26-A653D003D46B}
+		{597935F4-EBA6-4DE5-AEAC-DF6CBE94CB7F} = {E2EE4078-E6AB-4258-8B26-A653D003D46B}
+		{781FA861-288C-44DA-9C59-435588131EF5} = {BBDC14E6-7A6E-49C2-9076-90C61210EFCF}
+		{8A912963-1846-4EBD-98CB-010116D08063} = {86954861-7543-492A-BECB-A50ADE5475D0}
+		{76920178-5F4F-4D02-AFE2-84F975E8992A} = {8A912963-1846-4EBD-98CB-010116D08063}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F0E7366-5965-4824-A03F-F92EA4B95C37}
+	EndGlobalSection
+EndGlobal
